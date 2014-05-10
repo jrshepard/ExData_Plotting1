@@ -14,7 +14,7 @@ pwr$DateTime <- strptime(pwr$DateTime,"%Y-%m-%d %H:%M:%S")
 ## Subset February 1, 2007 to February 2, 2007
 subpwr <- pwr[(pwr$Date == "2007-02-01" | pwr$Date == "2007-02-02"),]
 
-## Open png device; create 'plot1.png' in current directory
+## Open png device; create 'plot4.png' in current directory
 png(filename="plot4.png",width=480,height=480,units="px")
 
 ## plot
